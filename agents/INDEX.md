@@ -4,6 +4,16 @@
 
 ---
 
+## Language / 语言入口
+
+- 中文版入口：[`agents/zh-CN/`](./zh-CN/)
+- English entry: [`agents/en/`](./en/)
+
+如果你主要是中文使用场景，直接看 `zh-CN` 目录。  
+If you prefer English navigation, go to the `en` directory.
+
+---
+
 ## How to choose / 怎么选
 
 ### English
@@ -29,12 +39,12 @@ If you don't know where to start, choose based on the job you want done:
 ---
 
 ## Recommended first 6 / 推荐先看这 6 个
-1. [小红书运营助手](./小红书运营助手.md) / [xiaohongshu-operator.md](./xiaohongshu-operator.md)
-2. [旅行规划Agent](./旅行规划Agent.md) / [travel-planner-agent.md](./travel-planner-agent.md)
-3. [健康健身Agent](./健康健身Agent.md) / [健康健身-coach.md](./健康健身-coach.md)
-4. [客服回复助手](./客服回复助手.md) / [customer-support-assistant.md](./customer-support-assistant.md)
-5. [项目管理Agent](./项目管理Agent.md) / [project-manager-agent.md](./project-manager-agent.md)
-6. [英语口语陪练Agent](./英语口语陪练Agent.md) / [english-speaking-coach.md](./english-speaking-coach.md)
+1. [小红书运营助手](./zh-CN/小红书运营助手.md) / [xiaohongshu-operator.md](./en/xiaohongshu-operator.md)
+2. [旅行规划Agent](./zh-CN/旅行规划Agent.md) / [travel-planner-agent.md](./en/travel-planner-agent.md)
+3. [健康健身Agent](./zh-CN/健康健身Agent.md) / [fitness-coach.md](./en/fitness-coach.md)
+4. [客服回复助手](./zh-CN/客服回复助手.md) / [customer-support-assistant.md](./en/customer-support-assistant.md)
+5. [项目管理Agent](./zh-CN/项目管理Agent.md) / [project-manager-agent.md](./en/project-manager-agent.md)
+6. [英语口语陪练Agent](./zh-CN/英语口语陪练Agent.md) / [english-speaking-coach.md](./en/english-speaking-coach.md)
 
 ---
 
@@ -42,16 +52,16 @@ If you don't know where to start, choose based on the job you want done:
 
 | 中文文件 | English Alias | 适用场景 |
 |------|--------------|----------|
-| [小红书运营助手](./小红书运营助手.md) | [xiaohongshu-operator.md](./xiaohongshu-operator.md) | 标题、正文、标签、封面建议 |
-| [小红书获客Agent](./小红书获客Agent.md) | [xiaohongshu-leads-agent.md](./xiaohongshu-leads-agent.md) | 评论区引流、私信承接、转化路径 |
-| [短视频创作Agent](./短视频创作Agent.md) | [short-video-writer.md](./short-video-writer.md) | 短视频脚本、钩子、CTA |
-| [客服回复助手](./客服回复助手.md) | [customer-support-assistant.md](./customer-support-assistant.md) | 售前售后回复、情绪安抚 |
-| [客服跟单Agent](./客服跟单Agent.md) | [sales-follow-up-agent.md](./sales-follow-up-agent.md) | 跟单节奏、成交推进 |
-| [报价单Agent](./报价单Agent.md) | [quote-generator.md](./quote-generator.md) | 报价单、报价结构、议价说明 |
-| [代码编程助手Agent](./代码编程助手Agent.md) | [coding-assistant.md](./coding-assistant.md) | 写代码、改 bug、解释逻辑 |
-| [数据分析Agent](./数据分析Agent.md) | [data-analyst.md](./data-analyst.md) | 指标分析、异常定位、行动建议 |
-| [会议纪要Agent](./会议纪要Agent.md) | [meeting-notes-agent.md](./meeting-notes-agent.md) | 会议纪要、待办、结论整理 |
-| [项目管理Agent](./项目管理Agent.md) | [project-manager-agent.md](./project-manager-agent.md) | 任务拆解、进度、风险、下一步 |
+| [小红书运营助手](./zh-CN/小红书运营助手.md) | [xiaohongshu-operator.md](./en/xiaohongshu-operator.md) | 标题、正文、标签、封面建议 |
+| [小红书获客Agent](./zh-CN/小红书获客Agent.md) | [xiaohongshu-leads-agent.md](./en/xiaohongshu-leads-agent.md) | 评论区引流、私信承接、转化路径 |
+| [短视频创作Agent](./zh-CN/短视频创作Agent.md) | [short-video-writer.md](./en/short-video-writer.md) | 短视频脚本、钩子、CTA |
+| [客服回复助手](./zh-CN/客服回复助手.md) | [customer-support-assistant.md](./en/customer-support-assistant.md) | 售前售后回复、情绪安抚 |
+| [客服跟单Agent](./zh-CN/客服跟单Agent.md) | [sales-follow-up-agent.md](./en/sales-follow-up-agent.md) | 跟单节奏、成交推进 |
+| [报价单Agent](./zh-CN/报价单Agent.md) | [quote-generator.md](./en/quote-generator.md) | 报价单、报价结构、议价说明 |
+| [代码编程助手Agent](./zh-CN/代码编程助手Agent.md) | [coding-assistant.md](./en/coding-assistant.md) | 写代码、改 bug、解释逻辑 |
+| [数据分析Agent](./zh-CN/数据分析Agent.md) | [data-analyst.md](./en/data-analyst.md) | 指标分析、异常定位、行动建议 |
+| [会议纪要Agent](./zh-CN/会议纪要Agent.md) | [meeting-notes-agent.md](./en/meeting-notes-agent.md) | 会议纪要、待办、结论整理 |
+| [项目管理Agent](./zh-CN/项目管理Agent.md) | [project-manager-agent.md](./en/project-manager-agent.md) | 任务拆解、进度、风险、下一步 |
 
 ---
 
@@ -59,12 +69,11 @@ If you don't know where to start, choose based on the job you want done:
 
 | 中文文件 | English Alias | 适用场景 |
 |------|--------------|----------|
-| [健康健身Agent](./健康健身Agent.md) | [健康健身-coach.md](./健康健身-coach.md) | 训练、饮食、轻量打卡 |
-| [旅行规划Agent](./旅行规划Agent.md) | [travel-planner-agent.md](./travel-planner-agent.md) | 出行方案、预算、清单 |
-| [习惯打卡Agent](./习惯打卡Agent.md) | [habit-checkin-agent.md](./habit-checkin-agent.md) | 习惯养成、打卡、复盘 |
-| [英语口语陪练Agent](./英语口语陪练Agent.md) | [english-speaking-coach.md](./english-speaking-coach.md) | 日常口语、陪练、纠错 |
-| [读书笔记助手](./读书笔记助手.md) | [reading-notes-assistant.md](./reading-notes-assistant.md) | 读书笔记、摘要、行动点 |
-
+| [健康健身Agent](./zh-CN/健康健身Agent.md) | [fitness-coach.md](./en/fitness-coach.md) | 训练、饮食、轻量打卡 |
+| [旅行规划Agent](./zh-CN/旅行规划Agent.md) | [travel-planner-agent.md](./en/travel-planner-agent.md) | 出行方案、预算、清单 |
+| [习惯打卡Agent](./zh-CN/习惯打卡Agent.md) | [habit-checkin-agent.md](./en/habit-checkin-agent.md) | 习惯养成、打卡、复盘 |
+| [英语口语陪练Agent](./zh-CN/英语口语陪练Agent.md) | [english-speaking-coach.md](./en/english-speaking-coach.md) | 日常口语、陪练、纠错 |
+| [读书笔记助手](./zh-CN/读书笔记助手.md) | [reading-notes-assistant.md](./en/reading-notes-assistant.md) | 读书笔记、摘要、行动点 |
 
 ---
 
@@ -72,8 +81,8 @@ If you don't know where to start, choose based on the job you want done:
 
 | 中文文件 | English Alias | 适用场景 |
 |------|--------------|----------|
-| [AI绘画提示词Agent](./AI绘画提示词Agent.md) | [ai-image-prompt-agent.md](./ai-image-prompt-agent.md) | 画图 prompt、风格和构图方向 |
-| [日报助手](./日报助手.md) | [daily-update-assistant.md](./daily-update-assistant.md) | 日报、短汇报、状态同步 |
-| [邮件日程自动化Agent](./邮件日程自动化Agent.md) | [email-scheduling-assistant.md](./email-scheduling-assistant.md) | 邮件和会议安排 |
-| [智能家居Agent](./智能家居Agent.md) | [smart-home-assistant.md](./smart-home-assistant.md) | 家居联动和场景建议 |
-| [学术研究Agent](./学术研究Agent.md) | [academic-research-agent.md](./academic-research-agent.md) | 文献综述、提纲、研究结构 |
+| [AI绘画提示词Agent](./zh-CN/AI绘画提示词Agent.md) | [ai-image-prompt-agent.md](./en/ai-image-prompt-agent.md) | 画图 prompt、风格和构图方向 |
+| [日报助手](./zh-CN/日报助手.md) | [daily-update-assistant.md](./en/daily-update-assistant.md) | 日报、短汇报、状态同步 |
+| [邮件日程自动化Agent](./zh-CN/邮件日程自动化Agent.md) | [email-scheduling-assistant.md](./en/email-scheduling-assistant.md) | 邮件和会议安排 |
+| [智能家居Agent](./zh-CN/智能家居Agent.md) | [smart-home-assistant.md](./en/smart-home-assistant.md) | 家居联动和场景建议 |
+| [学术研究Agent](./zh-CN/学术研究Agent.md) | [academic-research-agent.md](./en/academic-research-agent.md) | 文献综述、提纲、研究结构 |

@@ -11,9 +11,9 @@ Go here and choose the pack closest to your task:
 [agents/INDEX.md](./agents/INDEX.md)
 
 Examples:
-- Want Xiaohongshu content help → [Xiaohongshu Operator](./agents/小红书运营助手.md)
-- Want customer support replies → [Customer Support Assistant](./agents/客服回复助手.md)
-- Want project planning help → [Project Manager Agent](./agents/项目管理Agent.md)
+- Want Xiaohongshu content help → [Xiaohongshu Operator](./agents/zh-CN/小红书运营助手.md)
+- Want customer support replies → [Customer Support Assistant](./agents/zh-CN/客服回复助手.md)
+- Want project planning help → [Project Manager Agent](./agents/zh-CN/项目管理Agent.md)
 
 ### 2) Copy the whole markdown file
 Do not over-optimize at first.
@@ -58,6 +58,6 @@ The full version is more suitable for real business use, with deeper templates, 
 ---
 
 ## Recommended first 3 packs
-1. [Xiaohongshu Operator](./agents/小红书运营助手.md)
-2. [Customer Support Assistant](./agents/客服回复助手.md)
-3. [Project Manager Agent](./agents/项目管理Agent.md)
+1. [Xiaohongshu Operator](./agents/zh-CN/小红书运营助手.md)
+2. [Customer Support Assistant](./agents/zh-CN/客服回复助手.md)
+3. [Project Manager Agent](./agents/zh-CN/项目管理Agent.md)

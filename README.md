@@ -23,6 +23,19 @@
 
 ---
 
+## Bilingual structure / 双语结构
+
+This repo is now organized into two language folders:
+这个仓库现在按语言拆成了两个目录：
+
+- 中文版：[`agents/zh-CN/`](./agents/zh-CN/)
+- English: [`agents/en/`](./agents/en/)
+
+So it looks cleaner for both Chinese and English users.
+这样中文用户和英文用户看起来都会更顺，不会一堆文件混在一起。
+
+---
+
 ## What this repo is / 这个仓库是干什么的
 
 This repo gives you lightweight **one-file agent packs** for real work.
@@ -35,6 +48,7 @@ Open a markdown file, paste it into your AI agent instructions, and start using 
 - create content faster / 更快做内容
 - reply to customers better / 更稳地做客服回复
 - structure sales follow-up / 把跟单流程理顺
+- build daily-life helpers / 做旅行、健身、打卡、英语陪练等生活型助手
 - turn prompts into products / 把 prompt 整理成交付物
 - test AI monetization ideas fast / 更快验证 AI 变现方向
 
@@ -61,58 +75,31 @@ If you are new, read:
 
 ---
 
-## Start with these 3 / 推荐先看这 3 个
+## Start with these 6 / 推荐先看这 6 个
 
-If you only try three packs first, start here:
-如果你只准备先试 3 个，优先从这几个开始：
-
-1. [Xiaohongshu Operator / 小红书运营助手](./agents/小红书运营助手.md)
-   - best for content drafting, titles, tags
-   - 适合内容起稿、标题和标签优化
-2. [Travel Planner Agent / 旅行规划Agent](./agents/旅行规划Agent.md)
-   - best for lifestyle use and easy first-time experience
-   - 适合生活化使用，最适合第一次试
-3. [Customer Support Assistant / 客服回复助手](./agents/客服回复助手.md)
-   - best for fast business use and customer-facing scenarios
-   - 适合客服场景，最容易直接落地
+1. [小红书运营助手](./agents/zh-CN/小红书运营助手.md) / [xiaohongshu-operator.md](./agents/en/xiaohongshu-operator.md)
+2. [旅行规划Agent](./agents/zh-CN/旅行规划Agent.md) / [travel-planner-agent.md](./agents/en/travel-planner-agent.md)
+3. [健康健身Agent](./agents/zh-CN/健康健身Agent.md) / [fitness-coach.md](./agents/en/fitness-coach.md)
+4. [客服回复助手](./agents/zh-CN/客服回复助手.md) / [customer-support-assistant.md](./agents/en/customer-support-assistant.md)
+5. [项目管理Agent](./agents/zh-CN/项目管理Agent.md) / [project-manager-agent.md](./agents/en/project-manager-agent.md)
+6. [英语口语陪练Agent](./agents/zh-CN/英语口语陪练Agent.md) / [english-speaking-coach.md](./agents/en/english-speaking-coach.md)
 
 ---
 
-## Open-source Packs / 当前开源包
+## Coverage / 当前覆盖面
 
-| Pack | What it helps with | Chinese file | English alias |
-|------|--------------------|--------------|---------------|
-| Xiaohongshu Operator / 小红书运营助手 | Titles, post drafts, tags, cover ideas | [打开](./agents/小红书运营助手.md) | [open](./agents/xiaohongshu-operator.md) |
-| Xiaohongshu Leads Agent / 小红书获客Agent | Comments, DMs, conversion paths | [打开](./agents/小红书获客Agent.md) | [open](./agents/xiaohongshu-leads-agent.md) |
-| Short Video Writer / 短视频创作Agent | Hooks, scripts, CTA | [打开](./agents/短视频创作Agent.md) | [open](./agents/short-video-writer.md) |
-| Customer Support Assistant / 客服回复助手 | Customer replies and support flow | [打开](./agents/客服回复助手.md) | [open](./agents/customer-support-assistant.md) |
-| Sales Follow-up Agent / 客服跟单Agent | Follow-up timing and conversion | [打开](./agents/客服跟单Agent.md) | [open](./agents/sales-follow-up-agent.md) |
-| Quote Generator / 报价单Agent | Professional quotations | [打开](./agents/报价单Agent.md) | [open](./agents/quote-generator.md) |
-| Coding Assistant / 代码编程助手Agent | Code writing and debugging | [打开](./agents/代码编程助手Agent.md) | [open](./agents/coding-assistant.md) |
-| Data Analyst / 数据分析Agent | Metrics, insights, next steps | [打开](./agents/数据分析Agent.md) | [open](./agents/data-analyst.md) |
-| Meeting Notes Agent / 会议纪要Agent | Meeting summaries and action items | [打开](./agents/会议纪要Agent.md) | [open](./agents/meeting-notes-agent.md) |
-| Project Manager Agent / 项目管理Agent | Task breakdown, risks, next actions | [打开](./agents/项目管理Agent.md) | [open](./agents/project-manager-agent.md) |
+### Business / 商务向
+content, customer support, sales follow-up, quotations, coding, analysis, meeting notes, project management
 
-More guidance here / 更多说明看这里：
-- [Agent Index / Agent 列表](./agents/INDEX.md)
-- [Sample Inputs / 示例输入](./examples/sample-inputs.md)
-- [Sample Outputs / 示例输出](./examples/sample-outputs.md)
+### Lifestyle / 生活向
+fitness, travel planning, habit tracking, English speaking practice, reading notes
 
----
+### Study & Utility / 学习与工具向
+AI image prompting, daily updates, email scheduling, smart home routines, academic research
 
-## Why this format / 为什么做成这种格式
-
-Most people do **not** need more prompt theory.
-They need something they can import quickly, understand quickly, and use for actual work.
-
-大多数人并不缺更多 prompt 理论，
-他们更需要一个能快速导入、快速看懂、快速改造、快速拿去干活的东西。
-
-That is why this repo keeps the structure intentionally simple:
-**one scenario → one pack → one markdown file**
-
-所以这里故意把结构压得很简单：
-**一个场景 → 一个包 → 一个 markdown 文件**
+For the full list, see:
+完整列表见：
+[agents/INDEX.md](./agents/INDEX.md)
 
 ---
 
@@ -160,25 +147,3 @@ You may **not** directly resell the open-source version for commercial use.
 
 你可以学习、改写、传播（需署名），
 但**不能**直接把开源版拿去商用倒卖。
-
-
-### Lifestyle / 生活向
-
-| Pack | What it helps with | Chinese file | English alias |
-|------|--------------------|--------------|--------------- |
-| Fitness Coach / 健康健身Agent | Workout, diet, and habit planning | [打开](./agents/健康健身Agent.md) | [open](./agents/健康健身-coach.md) |
-| Travel Planner Agent / 旅行规划Agent | Travel planning, budget, packing list | [打开](./agents/旅行规划Agent.md) | [open](./agents/travel-planner-agent.md) |
-| Habit Check-in Agent / 习惯打卡Agent | Habit tracking and accountability | [打开](./agents/习惯打卡Agent.md) | [open](./agents/habit-checkin-agent.md) |
-| English Speaking Coach / 英语口语陪练Agent | Daily speaking practice | [打开](./agents/英语口语陪练Agent.md) | [open](./agents/english-speaking-coach.md) |
-| Reading Notes Assistant / 读书笔记助手 | Reading notes and action takeaways | [打开](./agents/读书笔记助手.md) | [open](./agents/reading-notes-assistant.md) |
-
-
-### Study & Utility / 学习与工具向
-
-| Pack | What it helps with | Chinese file | English alias |
-|------|--------------------|--------------|---------------|
-| AI Image Prompt Agent / AI绘画提示词Agent | Image prompts and style ideas | [打开](./agents/AI绘画提示词Agent.md) | [open](./agents/ai-image-prompt-agent.md) |
-| Daily Update Assistant / 日报助手 | Daily updates and short status reports | [打开](./agents/日报助手.md) | [open](./agents/daily-update-assistant.md) |
-| Email Scheduling Assistant / 邮件日程自动化Agent | Emails and simple scheduling drafts | [打开](./agents/邮件日程自动化Agent.md) | [open](./agents/email-scheduling-assistant.md) |
-| Smart Home Assistant / 智能家居Agent | Smart-home scene ideas and routines | [打开](./agents/智能家居Agent.md) | [open](./agents/smart-home-assistant.md) |
-| Academic Research Agent / 学术研究Agent | Literature review and paper structure | [打开](./agents/学术研究Agent.md) | [open](./agents/academic-research-agent.md) |

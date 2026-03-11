@@ -56,7 +56,7 @@ See the full list here:
 ## How to use this (beginner-friendly)
 ### Step 1: Choose a pack
 If you want help with Xiaohongshu content, open:
-[Xiaohongshu Operator](./agents/小红书运营助手.md)
+[Xiaohongshu Operator](./agents/zh-CN/小红书运营助手.md)
 
 ### Step 2: Copy the whole file
 Copy the entire markdown file.

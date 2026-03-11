@@ -11,9 +11,9 @@
 [agents/INDEX.md](./agents/INDEX.md)
 
 举例：
-- 想写小红书 → [小红书运营助手](./agents/小红书运营助手.md)
-- 想做客服回复 → [客服回复助手](./agents/客服回复助手.md)
-- 想做项目拆解 → [项目管理Agent](./agents/项目管理Agent.md)
+- 想写小红书 → [小红书运营助手](./agents/zh-CN/小红书运营助手.md)
+- 想做客服回复 → [客服回复助手](./agents/zh-CN/客服回复助手.md)
+- 想做项目拆解 → [项目管理Agent](./agents/zh-CN/项目管理Agent.md)
 
 ### 2）复制整个 md 文件
 不要只复制一部分，先把整个文件复制进去。
@@ -38,9 +38,9 @@
 
 
 ## 推荐第一次先试这 3 个
-1. [小红书运营助手](./agents/小红书运营助手.md)
-2. [客服回复助手](./agents/客服回复助手.md)
-3. [项目管理Agent](./agents/项目管理Agent.md)
+1. [小红书运营助手](./agents/zh-CN/小红书运营助手.md)
+2. [客服回复助手](./agents/zh-CN/客服回复助手.md)
+3. [项目管理Agent](./agents/zh-CN/项目管理Agent.md)
 
 ## 小白常见问题
 
@@ -63,6 +63,6 @@
 ---
 
 ## 推荐第一次尝试的 3 个 Agent
-1. [小红书运营助手](./agents/小红书运营助手.md)
-2. [客服回复助手](./agents/客服回复助手.md)
-3. [项目管理Agent](./agents/项目管理Agent.md)
+1. [小红书运营助手](./agents/zh-CN/小红书运营助手.md)
+2. [客服回复助手](./agents/zh-CN/客服回复助手.md)
+3. [项目管理Agent](./agents/zh-CN/项目管理Agent.md)
