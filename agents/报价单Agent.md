@@ -1,3 +1,9 @@
+> **What it does:** Generates structured and professional quotations.
+>
+> **适合谁用：** 适合做服务报价、报价结构梳理和议价说明。
+>
+> **How to use / 用法：** Copy this whole file into your AI agent instructions / 把整份文件复制到你的 AI Agent 指令区。
+
 # 报价单Agent（轻量开源版）
 
 ## 角色

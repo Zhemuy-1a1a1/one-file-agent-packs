@@ -1,3 +1,9 @@
+> **What it does:** Breaks down projects into tasks, risks, and next steps.
+>
+> **适合谁用：** 适合做项目拆解、进度管理和风险提醒。
+>
+> **How to use / 用法：** Copy this whole file into your AI agent instructions / 把整份文件复制到你的 AI Agent 指令区。
+
 # 项目管理Agent（轻量开源版）
 
 ## 角色

@@ -1,38 +1,63 @@
 # One-File Agent Packs / 单文件 Agent 包
 
-> One file, one agent, ready to import and use.  
-> 一个文件，一个 Agent，拿去就能直接用。
+<p align="center">
+  <strong>One file, one agent, ready to import and use.</strong><br />
+  <strong>一个文件，一个 Agent，拿去就能直接用。</strong>
+</p>
 
-[English Guide](./README.en.md) · [中文说明](./README.zh-CN.md) · [Quick Start EN](./QUICKSTART.en.md) · [快速开始 CN](./QUICKSTART.zh-CN.md) · [Upgrade / 升级路径](./UPGRADE.md) · [Agent Index / Agent 列表](./agents/INDEX.md)
+<p align="center">
+  <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/license-CC%20BY--NC%204.0-orange" /></a>
+  <a href="./agents/INDEX.md"><img alt="Packs" src="https://img.shields.io/badge/packs-10-blue" /></a>
+  <a href="./README.zh-CN.md"><img alt="Chinese" src="https://img.shields.io/badge/README-中文-red" /></a>
+  <a href="./README.en.md"><img alt="English" src="https://img.shields.io/badge/README-English-green" /></a>
+</p>
+
+<p align="center">
+  <a href="./README.en.md">English Guide</a> ·
+  <a href="./README.zh-CN.md">中文说明</a> ·
+  <a href="./QUICKSTART.en.md">Quick Start EN</a> ·
+  <a href="./QUICKSTART.zh-CN.md">快速开始 CN</a> ·
+  <a href="./agents/INDEX.md">Agent Index / Agent 列表</a> ·
+  <a href="./UPGRADE.md">Upgrade / 升级路径</a>
+</p>
 
 ---
 
-## TL;DR / 一句话说明
+## What this repo is / 这个仓库是干什么的
 
 This repo gives you lightweight **one-file agent packs** for real work.
-You open a markdown file, copy it into your AI agent's instructions, and start using it.
+Open a markdown file, paste it into your AI agent instructions, and start using it.
 
-这个仓库提供一批适合真实场景的 **单文件 Agent 包**。
-你只需要打开一个 markdown 文件，复制到自己的 AI Agent 指令区，就可以开始使用。
+这个仓库提供一批面向真实业务场景的 **单文件 Agent 包**。
+打开一个 markdown 文件，把它贴进你的 AI Agent 指令区，就能开始使用。
+
+### Good fit if you want to / 如果你想做这些事，这个仓库适合你
+- create content faster / 更快做内容
+- reply to customers better / 更稳地做客服回复
+- structure sales follow-up / 把跟单流程理顺
+- turn prompts into products / 把 prompt 整理成交付物
+- test AI monetization ideas fast / 更快验证 AI 变现方向
 
 ---
 
-## Start Here / 第一次来先看这里
+## 3 steps to use / 3 步上手
 
-### If you are new / 如果你是第一次接触
-1. Read [Quick Start EN](./QUICKSTART.en.md) or [快速开始 CN](./QUICKSTART.zh-CN.md)
-2. Open [agents/INDEX.md](./agents/INDEX.md)
-3. Pick one pack that matches your scenario
-4. Copy that `.md` file into your agent instructions
-5. Try the example inputs in [examples/sample-inputs.md](./examples/sample-inputs.md)
+### 1. Pick one pack / 选一个包
+Go to [agents/INDEX.md](./agents/INDEX.md) and choose the scenario closest to your task.
+去 [agents/INDEX.md](./agents/INDEX.md) 里挑一个最接近你需求的场景。
 
-### What each pack usually contains / 每个 Agent 包通常包含
-- role definition / 角色定义
-- core capabilities / 核心能力
-- input template / 输入模板
-- output structure / 输出结构
-- basic rules / 基础规则
-- usage notes / 使用说明
+### 2. Copy the file / 复制文件
+Open the `.md` file and copy the whole content.
+打开对应 `.md` 文件，整份复制。
+
+### 3. Paste into your AI agent / 粘贴到你的 Agent
+Paste it into your system prompt / instructions / custom agent setup.
+把内容粘贴到系统提示词 / Instructions / 自定义 Agent 配置里。
+
+If you are new, read:
+如果你是第一次用，先看：
+- [Quick Start EN](./QUICKSTART.en.md)
+- [快速开始 CN](./QUICKSTART.zh-CN.md)
 
 ---
 
@@ -51,34 +76,22 @@ You open a markdown file, copy it into your AI agent's instructions, and start u
 | Meeting Notes Agent / 会议纪要Agent | Meeting summaries and action items | [open](./agents/会议纪要Agent.md) |
 | Project Manager Agent / 项目管理Agent | Task breakdown, risks, next actions | [open](./agents/项目管理Agent.md) |
 
----
-
-## Example Files / 示例文件
+More guidance here / 更多说明看这里：
+- [Agent Index / Agent 列表](./agents/INDEX.md)
 - [Sample Inputs / 示例输入](./examples/sample-inputs.md)
 - [Sample Outputs / 示例输出](./examples/sample-outputs.md)
 
-If you're not sure how to start, copy one example input first and replace the content with your own situation.
-如果你不知道怎么开始，先复制一条示例输入，再把里面的内容改成自己的情况。
-
 ---
 
-## Why this repo exists / 为什么做这个仓库
+## Why this format / 为什么做成这种格式
 
 Most people do **not** need more prompt theory.
-They need something they can:
-- import quickly
-- understand quickly
-- adapt quickly
-- use for actual work
+They need something they can import quickly, understand quickly, and use for actual work.
 
 大多数人并不缺更多 prompt 理论，
-他们缺的是一个：
-- 能快速导入
-- 能快速看懂
-- 能快速改造
-- 能真正拿去干活
+他们更需要一个能快速导入、快速看懂、快速改造、快速拿去干活的东西。
 
-So the structure here is intentionally simple:
+That is why this repo keeps the structure intentionally simple:
 **one scenario → one pack → one markdown file**
 
 所以这里故意把结构压得很简单：
@@ -86,9 +99,9 @@ So the structure here is intentionally simple:
 
 ---
 
-## Upgrade Path / 升级路径
+## Public vs full version / 开源版和完整版的区别
 
-This repo is the lightweight public layer.
+This repo is the **lightweight public layer**.
 The full commercial version can include:
 - richer templates
 - SOPs
@@ -97,7 +110,7 @@ The full commercial version can include:
 - combo packs
 - industry custom versions
 
-这个仓库放的是轻量公开层。
+这个仓库放的是**轻量公开层**。
 完整版商业包可包含：
 - 更完整模板
 - SOP
@@ -107,6 +120,17 @@ The full commercial version can include:
 - 行业定制版
 
 See: [UPGRADE.md](./UPGRADE.md)
+
+---
+
+## Useful links / 常用入口
+- [README.en.md](./README.en.md)
+- [README.zh-CN.md](./README.zh-CN.md)
+- [QUICKSTART.en.md](./QUICKSTART.en.md)
+- [QUICKSTART.zh-CN.md](./QUICKSTART.zh-CN.md)
+- [examples/sample-inputs.md](./examples/sample-inputs.md)
+- [examples/sample-outputs.md](./examples/sample-outputs.md)
+- [agents/INDEX.md](./agents/INDEX.md)
 
 ---
 

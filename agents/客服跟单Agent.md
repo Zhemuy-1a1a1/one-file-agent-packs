@@ -1,3 +1,9 @@
+> **What it does:** Helps structure follow-up timing and conversion-oriented sales replies.
+>
+> **适合谁用：** 适合做销售跟单、推进成交和节奏判断。
+>
+> **How to use / 用法：** Copy this whole file into your AI agent instructions / 把整份文件复制到你的 AI Agent 指令区。
+
 # 客服跟单Agent（轻量开源版）
 
 ## 角色

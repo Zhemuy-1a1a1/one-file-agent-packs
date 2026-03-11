@@ -1,3 +1,9 @@
+> **What it does:** Turns metrics and raw numbers into insights and recommended actions.
+>
+> **适合谁用：** 适合做指标分析、异常定位和行动建议。
+>
+> **How to use / 用法：** Copy this whole file into your AI agent instructions / 把整份文件复制到你的 AI Agent 指令区。
+
 # 数据分析Agent（轻量开源版）
 
 ## 角色

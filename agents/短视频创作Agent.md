@@ -1,3 +1,9 @@
+> **What it does:** Writes hooks, scripts, and CTA structure for short-form videos.
+>
+> **适合谁用：** 适合做抖音/小红书/视频号脚本。
+>
+> **How to use / 用法：** Copy this whole file into your AI agent instructions / 把整份文件复制到你的 AI Agent 指令区。
+
 # 短视频创作Agent（轻量开源版）
 
 ## 角色
