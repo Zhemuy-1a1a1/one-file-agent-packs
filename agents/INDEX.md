@@ -14,6 +14,11 @@ If you prefer English navigation, go to the `en` directory.
 
 ---
 
+## What's new / 新增内容（2026-03）
+
+- **统一头部**：所有核心 Agent 文件已内置 YAML front matter（name/description/use_case/target_user/version/updated），方便工具读取和索引
+- **示例输入输出**：[`examples/sample-inputs.md`](../examples/sample-inputs.md) 和 [`examples/sample-outputs.md`](../examples/sample-outputs.md) 已补全，包含 3 个核心 Agent × 2 个真实场景的具体示例
+
 ## How to choose / 怎么选
 
 ### English
